@@ -1,5 +1,4 @@
 .navbar{
-  //background-color: var(--yellow-theme-nav-background-color);
   background: rgba(65, 39, 39, 0.2);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -13,29 +12,32 @@
   &__container{
     display: flex;
     align-items: center;
-    width: 100%;
+    justify-content: space-between;
+    width: 10%;
     height: inherit;
-    padding: 0px 20px;
-    flex: 1;
-
+    padding: 0 20px;
     &__logo{
       color: var(--yellow-theme-main-color);
-      //The logo is not turning to the yello theme main color.
       cursor:pointer;
     }
     &__menu{
       display: flex;
+      align-items: center;
+      justify-content: center;
       list-style: none;
       text-align: center;
 
       &__item{
         line-height: 40px;
-        margin-right: 1.5rem;
         font-size: 1.6rem;
+        display: flex;
+        align-items:center;
+        justify-content: left;
+        margin: 2 15px;
 
         &::after{
           content: "";
-          display: block;
+          display: flex;
           height: 3px;
           width: 0;
           background: transparent;
@@ -48,7 +50,10 @@
         &__links{
           color: var(--yellow-theme-main-color);
           text-decoration: none;
-          padding: 0.5rem;
+          padding: 8px 12px;
+          font-size: 18px;
+
+
         }
       }
     }
