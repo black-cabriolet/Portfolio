@@ -3,8 +3,8 @@ import "./styles.scss"
 import {BsInfoCircleFill} from "react-icons/bs";
 import PageHeaderContent from "../../components/pageHeaderContent/index.jsx";
 import {Animate} from "react-simple-animate";
-import {DiApple, DiAndroid} from "react-icons/di";
-import {FaDev, FaDatabase} from "react-icons/fa";
+import {DiReact, DiPython, DiDjango, DiJavascript, DiLinux} from "react-icons/di";
+import {FaDev, FaDatabase, FaGithub} from "react-icons/fa";
 
 const personalDetails = [
     {
@@ -98,14 +98,28 @@ const About=()=>{
                                 <FaDev size={60} color="var( --yellow-theme-main-color)"/>
                             </div>
                             <div>
-                                <DiAndroid size={60} color={"var(--yellow-theme-main-color)"}/>
+                                <DiPython size={60} color={"var(--yellow-theme-main-color)"}/>
                             </div>
                             <div>
                                 <FaDatabase size={60} color={"var(--yellow-theme-main-color)"}/>
                             </div>
                             <div>
-                                <DiApple size={60} color={"var(--yellow-theme-main-color)"}/>
+                                <DiReact size={60} color={"var(--yellow-theme-main-color)"}/>
                             </div>
+                            <div>
+                                <DiDjango size={60} color={"var(--yellow-theme-main-color)"}/>
+                            </div>
+                            <div>
+                               <DiJavascript size={60} color={"var(--yellow-theme-main-color)"}/>
+                            </div>
+                            <div>
+                                <FaGithub size={60} color={"var(--yellow-theme-main-color)"}/>
+                            </div>
+                            <div>
+                                <DiLinux size={60} color={"var(--yellow-theme-main-color)"}/>
+                            </div>
+
+
                         </div>
                         </Animate>
                    </div>
