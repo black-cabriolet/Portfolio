@@ -64,6 +64,13 @@
 }
 
 @media only screen and (max-width: 760px) {
+  .navbar__container{
+    &__logo{
+      position: absolute;
+      top: 15px;
+      left: 25px;
+    }
+  }
   .navbar__container__menu{
     display: flex;
     flex-direction: column;
@@ -80,6 +87,7 @@
       left: 0px;
       opacity: 1;
     }
+
     &__item{
       border-bottom: 1px solid #282828;
       margin: 0px;
@@ -91,6 +99,8 @@
     cursor: pointer;
     color:  var(--yellow-theme-main-color);
     padding-right: 20px;
+    position: absolute;
+    right:15px;
   }
 
 }
